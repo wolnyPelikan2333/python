@@ -1,0 +1,7 @@
+name = input ("What is your name?")
+age = int (input ("How old you are? "))
+color =  input ("What is your color? ")
+
+print("Hello" + name + ", your color is " + color + ".")
+print("you are now " + age)
+print("In a next year, you will be " + name + 1.)
