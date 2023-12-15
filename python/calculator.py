@@ -1,17 +1,17 @@
-wybor = input("* - mnożenie, / -dzielenie, + -dodawanie, - -odejmowanie: ")
+choice = input("* - multiplication, / - division, + - addition , - - substraction: ")
 
-a = int(input("Pierwsza liczba: "))
-b = int(input("Druga liczba: "))
+a = int(input("First number: "))
+b = int(input("Second number: "))
 
-if wybor == "+":
+if choice == "+":
     print(a + b)
-elif wybor == "-":
+elif choice == "-":
     print(a - b)
-elif wybor == "*":
+elif choice == "*":
     print(a * b)
-elif wybor == "/":
+elif choice == "/":
     print(a / b)
     if (b == 0):
-        print("nie możesz dzielić przez 0")
+        print("you can't divide by 0")
     
         
