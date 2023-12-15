@@ -1,13 +1,13 @@
 # Pobierz imie użytkownika:
-name = input("Podaj swoje imię: ")
+name = input("Give your name: ")
 
 # pobierz wiek użytkownika:
-age = int(input("Podaj swój wiek: "))
+age = int(input("Enter your age: "))
 
 # pobierz jego ulubiony kolor:
-color = input("Podaj swój ulubiony kolor: ")
+color = input("Enter your favorite color: ")
 
 # Sformatuj i wypisz wynik na ekran:
-print("Hej " + name + ", Twój ulubiony kolor to " + color + ".")
-print("Masz ", age, " lat")
-print("Za rok będziesz miał: ", age + 1, " lat")
+print("Hej " + name + ", Your favorite color is  " + color + ".")
+print("You are  ", age, " years old")
+print("Next year you will have it : ", age + 1, " years old")
